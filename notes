@@ -1,0 +1,10 @@
+ .venv\Scripts\Activate.ps1     
+
+ with st.container():
+    st.markdown("""
+        <div class="custom-box" style="border-radius: 5px;">
+            <h3 class="h_container" > </h3>
+            <p class="p_container"> </p>
+            <p class="p_container"> </p>
+        </div>
+""", unsafe_allow_html=True)
