@@ -55,12 +55,12 @@ c1,c2,c3=st.columns([1,1,1])
 with c1:
     st.link_button(
         "🔗 LinkedIn Profile",
-        "YOUR_LINKEDIN_PROFILE_LINK",width="stretch"
+        "https://www.linkedin.com/in/pya-srinivas/",width="stretch"
     )
 with c2:
     st.link_button(
         "💻 GitHub Profile",
-        "YOUR_GITHUB_PROFILE_LINK",width="stretch"
+        "https://github.com/PYARASANISRINIVAS?tab=repositories",width="stretch"
     )
 
 with c3:

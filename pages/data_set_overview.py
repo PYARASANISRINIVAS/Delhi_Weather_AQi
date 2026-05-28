@@ -166,6 +166,13 @@ with st.container():
 
        </div>
 """, unsafe_allow_html=True)
+with st.container():
+    st.markdown("""
+        <div class="custom-box" style="border-radius: 5px; text-align:center;">
+            <h3 class="h_container" style="text-align:center;">-------------END---------</h3>          
+
+       </div>
+""", unsafe_allow_html=True)
     
 
 

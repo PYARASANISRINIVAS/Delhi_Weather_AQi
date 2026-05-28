@@ -440,5 +440,21 @@ with st.container():
         </div>
         <br>
     """, unsafe_allow_html=True)
+
+with st.container():
+    st.markdown("""
+        <div class="custom-box" style="border-radius: 5px;">
+            <h3 class="h_container" >Let's generate the insights use the side bar </h3>          
+
+       </div>
+""", unsafe_allow_html=True)
+with st.container():
+    st.markdown("""
+        <div class="custom-box" style="border-radius: 5px;">
+            <h3 class="h_container" >-------------END---------</h3>          
+
+       </div>
+""", unsafe_allow_html=True)
+    
 # df.dtypes
 # df.to_csv("data/DelhiWeatherAqi_2025_Cleaned_1.csv",index=False)
