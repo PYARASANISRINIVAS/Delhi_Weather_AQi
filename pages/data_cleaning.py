@@ -440,5 +440,5 @@ with st.container():
         </div>
         <br>
     """, unsafe_allow_html=True)
-df.dtypes
-df.to_csv("data/DelhiWeatherAqi_2025_Cleaned_1.csv",index=False)
+# df.dtypes
+# df.to_csv("data/DelhiWeatherAqi_2025_Cleaned_1.csv",index=False)
