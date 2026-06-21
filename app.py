@@ -72,22 +72,6 @@ st.markdown(
 
 
 
-# defining the Page Navigations 
-# pg = st.navigation([
-#     st.Page("pages/home.py",title="🏠 Home "),
-#     st.Page("pages/about_project.py",title="🏠 About Project"),
-#     st.Page("pages/data_set_overview.py",title="🧹 Data set overview"),
-#     st.Page("pages/data_cleaning.py",title="🧹 Data Cleaning"),
-#     st.Page("pages/trend_analysis.py",title="🕒 Pollution Trend and Impact Analysis"),
-#     st.Page("pages/weather_influence.py",title="🌦️ Weather-Based Analysis"),
-#     st.Page("pages/time_location_analysis.py",title="🏙️ Time and Location Based Analysis"),
-#     st.Page("pages/overall_conclusion.py",title="🚨 Overall Conclusion"),
-#     st.Page("pages/alerts_for_people.py",title="🔗 Alerts for People"),
-#     st.Page("pages/recommendations_govt.py",title="🎯 Suggestions to the Government"),
-#     st.Page("pages/about_me.py",title="🎯 About Me")
-# ]).run()
-
-
 pg = st.navigation([
 
     st.Page("pages/home.py",title="🏠 Home"),
